@@ -14,7 +14,7 @@ function HomeComponent() {
         //   ButtonClass="btn-primary"
         //   title="Sign Out !!"
         // />
-        <Image
+        <img
           className={styles.profileImg}
           // eslint-disable-next-line @typescript-eslint/non-nullable-type-assertion-style
           src={session?.user.image as string}
