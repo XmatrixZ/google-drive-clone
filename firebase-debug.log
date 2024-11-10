@@ -1,0 +1,16 @@
+[debug] [2024-11-10T19:38:44.559Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T19:38:44.561Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only firestore:rules
+[debug] [2024-11-10T19:38:44.562Z] CLI Version:   13.24.2
+[debug] [2024-11-10T19:38:44.562Z] Platform:      win32
+[debug] [2024-11-10T19:38:44.562Z] Node Version:  v20.18.0
+[debug] [2024-11-10T19:38:44.562Z] Time:          Sun Nov 10 2024 23:38:44 GMT+0400 (Gulf Standard Time)
+[debug] [2024-11-10T19:38:44.562Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T19:38:44.615Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T19:38:44.616Z] > authorizing via signed-in user (shivanshdhondiyal7723@gmail.com)
+[debug] [2024-11-10T19:38:44.616Z] [iam] checking project drive-765e4 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get"]
+[debug] [2024-11-10T19:38:44.617Z] Checked if tokens are valid: true, expires at: 1731270935687
+[debug] [2024-11-10T19:38:44.617Z] Checked if tokens are valid: true, expires at: 1731270935687
+[debug] [2024-11-10T19:38:44.618Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/drive-765e4:testIamPermissions [none]
+[debug] [2024-11-10T19:38:44.618Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/drive-765e4:testIamPermissions x-goog-quota-user=projects/drive-765e4
+[debug] [2024-11-10T19:38:44.618Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/drive-765e4:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get"]}

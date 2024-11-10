@@ -9,7 +9,7 @@ function HomeComponent() {
     <div >
       <Topbar />
       <UploadFiles />
-      <ShowFiles />
+      {/* <ShowFiles /> */}
     </div>
   );
 }

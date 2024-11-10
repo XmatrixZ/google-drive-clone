@@ -28,7 +28,11 @@ function UploadFiles() {
         <></>
       )}
       <Button title="Create a folder" ButtonClass="btn-outline btn-success" />
-      {progress === 0 || progress === 100 ? <></> : <CommonProgress  progress={progress} />}
+      {progress === 0 || progress === 100 ? (
+        <></>
+      ) : (
+        <CommonProgress progress={progress} />
+      )}
     </div>
   );
 }
