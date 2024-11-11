@@ -8,6 +8,7 @@ function UploadFiles() {
   const [isFileSelect, setFileSelect] = useState(false);
   const [progress, setProgress] = useState(0);
   const uploadFile = (event: ChangeEvent<HTMLInputElement>) => {
+    console.log(event.target.files?.[0]);
     const file = event.target.files?.[0];
     if (file) fileUpload(file, setProgress);
   };

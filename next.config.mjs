@@ -17,15 +17,6 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  // eslint-disable-next-line @typescript-eslint/require-await
-  async rewrites() {
-    return[
-      {
-        source: "/__/auth/:path*",
-        destination: `https://drive-765e4.firebaseapp.com/__/auth/:path*`,
-      },
-    ];
-  },
 };
 
 export default config;
